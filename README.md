@@ -22,6 +22,7 @@ docker run -ti --rm -p 8501:8501 charlestg/docker_streamlit:latest bash
 
 # ex: need to install additional requirements.txt
 pip install --no-cache-dir -r requirements.txt
+streamlit run app.py
 ```
 
 # Build docker image
